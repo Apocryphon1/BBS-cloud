@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<head>
+	<title>Payment</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet">
+	<script src="jquery-3.6.0.js"></script>
+	<script defer src="payment.js"></script>
+</head>
+
+<body class="parent">
+	<div class="div1"> bakcground division </div>
+	<header class="div2"> </header>
+	<div class="div3" id="nav"> <a href="home.html"><img src="logo.png" alt="Home" id="logo"></a></div>
+	<div class="div4" id="nav"> Reserve Ticket </div>
+	<div class="div5" id="nav"> View Tickets</div>
+	<div class="div6" id="nav"> Contact us </div>
+	<div class="div7" id="nav"> Login </div>
+	<div class="div8">
+		<div class="forms" id="xx">
+			<div class="formhead">
+				<h2>Payment</h2>
+			</div>
+			<form class="formstyle" id="form">
+				<div class="formcont">
+					<label for="name">Full Name</label>
+					<input type="text" id="name" name="name">
+				</div>
+				<div class="formcont">
+					<label>Card Number</label>
+					<input type="text" id="cardnum" name="cardnum">
+				</div>
+				<div class="formcont">
+					<label>CVV2</label>
+					<input type="text" id="cvv" name="cvv">
+				</div>
+				<div class="formcont">
+					<label>Expiry Date</label>
+					<input type="date" id="edate" name="edate">
+				</div>
+				<div class="formcont" id="err"></div>
+				<button type="submit">Pay</button>
+			</form>
+		</div>
+	</div>
+	<div class="div9">
+		<div class="footer-basic">
+			<footer>
+				<br>
+				<div class="social">
+					<a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+					<a href="https://www.snapchat.com" target="_blank"><i class="fab fa-snapchat"></i></a>
+					<a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+					<a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+				</div>
+				<ul class="list-inline">
+					<li class="list-inline-item"><a href="home.html">Home</a></li>
+					<li class="list-inline-item"><a href="#">Services</a></li>
+					<li class="list-inline-item"><a href="#">About</a></li>
+					<li class="list-inline-item"><a href="#">Terms</a></li>
+					<li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+				</ul>
+				<br>
+				<p class="copyright">Metro Exodus Inc. © 2021</p>
+			</footer>
+		</div>
+
+	</div>
+
+</body>
